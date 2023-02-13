@@ -53,11 +53,20 @@ dependencies:
   opencv: "^1.0.4"
 ```
 
+Add this to your android/app/build.gradle
+```buildGradle
+defaultConfig {
+    ...
+    minSdkVersion 21
+    }
+```
+
 In your library add the following import:
 
 ```dart
 import 'package:opencv/opencv.dart';
 ```
+
 
 ### Examples
 
